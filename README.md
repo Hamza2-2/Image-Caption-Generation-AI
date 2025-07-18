@@ -2,6 +2,33 @@
 
 This project implements an **Image Caption Generation AI** using deep learning techniques. It uses a CNN-RNN hybrid architecture to extract features from images and generate descriptive textual captions.
 
+## 🧠 How It Works
+
+1. **Feature Extraction (CNN):**
+   - A pretrained CNN (e.g., InceptionV3 or ResNet50) is used to extract high-level image features.
+   - The output is a feature vector representing the image content.
+
+2. **Sequence Modeling (RNN with LSTM):**
+   - The image features are passed to an LSTM decoder along with previously generated words.
+   - The model generates one word at a time, forming a complete caption.
+
+3. **Tokenizer & Vocabulary:**
+   - A tokenizer maps words to numeric indices and vice versa.
+   - Start (`<start>`) and end (`<end>`) tokens define the boundaries of each caption.
+
+4. **Training:**
+   - Uses a paired dataset of images and corresponding captions.
+   - Optimizes a sequence-to-sequence loss function to generate accurate descriptions.
+
+5. **Inference:**
+   - During testing, the model takes a new image and generates a caption by predicting the next word iteratively until the end token is reached.
+
+## 💡 Real-World Applications
+
+- 🔎 **Search Engines:** Indexing and retrieval of images based on captions
+- 🧑‍🦯 **Accessibility:** Helping visually impaired users understand image content
+- 📰 **Media Automation:** Auto-generating captions for news, blogs, and social media posts
+- 🛍️ **E-Commerce:** Tagging and describing product images automatically
 
 ## 📁 Repository Structure
 Image-Caption-Generation-AI/
@@ -74,3 +101,9 @@ Dataset files and annotation formats are located in the Dataset/ directory. Ensu
 - Scripts are modular and can be extended for GUI or web deployment
 
 - Training time depends on dataset size and hardware
+
+## 👨‍💻 Developer
+
+Hamza Afzal
+
+BSCS, Bahria University, Islamabad
