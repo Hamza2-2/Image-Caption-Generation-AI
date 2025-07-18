@@ -69,8 +69,8 @@ Dataset files and annotation formats are located in the Dataset/ directory. Ensu
 
 ## 📌 Notes
 
-Model weights and tokenizer are stored in Model Files/
+- Model weights and tokenizer are stored in Model Files/
 
-Scripts are modular and can be extended for GUI or web deployment
+- Scripts are modular and can be extended for GUI or web deployment
 
-Training time depends on dataset size and hardware
+- Training time depends on dataset size and hardware
