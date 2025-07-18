@@ -94,6 +94,10 @@ The output will be the generated caption for the input image.
 
 Dataset files and annotation formats are located in the Dataset/ directory. Ensure you place your images and captions properly before training.
 
+## Screenshots
+<img width="312" height="477" alt="image" src="https://github.com/user-attachments/assets/9b1d7e1f-f341-4e07-aaa2-dd07669dba33" />
+
+
 ## 📌 Notes
 
 - Model weights and tokenizer are stored in Model Files/
